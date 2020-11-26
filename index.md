@@ -14,6 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
+
 ![helix-logo](./helix_logo.png) <!-- this image is served from this content repository -->
 
 # Helix - helpx-helix
@@ -32,3 +33,7 @@ It works! helpx-helix is up and running.
 5. Publish your project to GitHub: `git remote add origin https://github.com/user/repo.git && git push`
 6. Deploy the project: `hlx deploy`
 7. Make it visible to the world: `hlx publish`
+
+<div class="markup">
+  <p>This is within markup</p>
+</div>

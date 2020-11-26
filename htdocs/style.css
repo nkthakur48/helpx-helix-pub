@@ -10,7 +10,10 @@
  * governing permissions and limitations under the License.
  */
 body {
-    padding: 8px;
-    background-color: white;
-    font-family: Arial, sans-serif;
+  padding: 8px;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+.markup {
+  color: red;
 }
