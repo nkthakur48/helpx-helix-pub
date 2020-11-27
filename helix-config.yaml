@@ -1,0 +1,15 @@
+#
+# helix configuration for local development
+#
+version: 1
+
+definitions:
+  defaults:
+    - &defaultRepo "ssh://git@github.com/nkthakur48/helpx-helix-pub.git"
+
+strains:
+  - name: default
+    code: ssh://git@github.com/nkthakur48/helpx-helix-pub.git#master
+    content: ssh://git@github.com/nkthakur48/helpx-helix-pub.git#master
+    static: ssh://git@github.com/nkthakur48/helpx-helix-pub.git/htdocs#master
+    package: 14262-greekblackbeaver/de170e75815da72a17610d9c6d9a3d3543d275e1
